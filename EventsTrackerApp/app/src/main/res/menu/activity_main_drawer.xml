@@ -35,4 +35,28 @@
         </menu>
     </item>
 
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/nav_profile" />
+
+    <item
+        android:id="@+id/nav_subList"
+        android:icon="@drawable/ic_nav_subs"
+        android:title="@string/nav_subList" />
+
+    <item
+        android:id="@+id/nav_viewUsers"
+        android:icon="@drawable/ic_nav_viewusers"
+        android:title="@string/nav_viewUsers" />
+
+    <item
+        android:id="@+id/nav_viewevents"
+        android:icon="@drawable/ic_nav_viewusers"
+        android:title="@string/nav_viewevents" />
+
+    <item
+        android:id="@+id/nav_createEvent"
+        android:icon="@drawable/ic_nav_addevent"
+        android:title="@string/nav_createevent" />
 </menu>

@@ -24,6 +24,45 @@
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.eventstrackerapp.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.eventstrackerapp.ui.calendar.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_carpool"
+        android:name="com.example.eventstrackerapp.ui.carpool.CarpoolFragment"
+        android:label="Carpool"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_subList"
+        android:name="com.example.eventstrackerapp.ui.sublist.SubListFragment"
+        android:label="Subscriptions"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_viewUsers"
+        android:name="com.example.eventstrackerapp.ui.viewusers.ViewUsersFragment"
+        android:label="All Users"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_viewevents"
+        android:name="com.example.eventstrackerapp.ui.event.ViewEventsFragment"
+        android:label="All Events"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_createEvent"
+        android:name="com.example.eventstrackerapp.ui.event.CreateEventFragment"
+        android:label="Your Clubs Event/Create an Event"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
         android:id="@+id/nav_tools"
         android:name="com.example.eventstrackerapp.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"

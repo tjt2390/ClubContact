@@ -13,4 +13,9 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_subList">Subscriptions</string>
+    <string name="nav_viewUsers">View Users</string>
+    <string name="nav_viewevents">View All Events</string>
+    <string name="nav_createevent">Add a New Event</string>
 </resources>
